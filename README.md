@@ -38,5 +38,8 @@ A responsive, Auth0-secured login app for Cruise0, built with Vite + React.
 
 Your app will be available at http://localhost:5173 (usually). 
 
+## 💻 Run this on the Web
+Access to  https://cruise0-login.vercel.app to see the project running live!
+
 ## Important Notes
-Please be sure to add your localhost:port URL or any other URL you may be using (in case of deploying this through a third party service such as vercel, heroku, etc.) to your Allowed Callback/Logout and Web Origins URLs in your Auth0 Application Dashboard. 
+Please be sure to add your localhost:port URL or any other URL you may be using (in case of deploying this through a third party service such as vercel, heroku, etc.) to your Allowed Callback/Logout and Web Origins URLs in your Auth0 Application Dashboard when run this project locally. 
