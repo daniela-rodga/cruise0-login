@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Auth0Provider
       domain={authConfig.domain}
       clientId={authConfig.clientId}
-      authorizationParams={{ redirect_uri: import.meta.env.VITE_AUTH0_CALLBACK_URL }}
+      authorizationParams={{ redirect_uri: window.location.origin }}
     >
       <App />
     </Auth0Provider>
