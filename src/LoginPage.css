@@ -1,0 +1,121 @@
+/* Cruise ship blue background and styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #16779A; /* Set the background to the desired blue color */
+    color: #16779A; /* Set text color to the same blue */
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%; /* Ensures the container stretches to full width */
+    background-color: #16779A; /* Ensure the background is solid blue */
+  }
+  
+  .login-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px; /* Limits the width on larger screens */
+    width: 100%;
+    box-sizing: border-box; /* Prevents padding from affecting the width */
+  }
+
+  .login-content button {
+    background-color: #16779A; /* Your blue */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: normal; /* Ensure text is regular weight by default */
+  }
+  
+  .login-content button:hover {
+    background-color: #125e78; /* Darker blue on hover */
+    font-weight: bold; /* Make the button text bold when hovered */
+  }
+  
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  h1, p, button {
+    color: #16779A; /* Change all text elements to the blue color */
+  }
+  
+  button {
+    background-color: #16779A;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: normal; /* Ensure text is regular weight by default */
+  }
+  
+  button:hover {
+    background-color: #125e78;
+    font-weight: bold; /* Make the button text bold when hovered */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 0 2rem; /* Add more padding for smaller screens */
+    }
+  
+    .login-content {
+      padding: 1.5rem; /* Reduce padding for smaller screens */
+    }
+  
+    .logo {
+      width: 120px; /* Reduce logo size on smaller screens */
+    }
+  
+    button {
+      font-size: 0.9rem; /* Make button text smaller */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-content {
+      padding: 1rem; /* Reduce padding even more */
+    }
+  
+    .logo {
+      width: 100px; /* Further reduce logo size */
+    }
+  
+    button {
+      padding: 0.5rem 1rem; /* Adjust button padding */
+    }
+  }
+  
+  .login-error {
+    background-color: rgba(255, 92, 92, 0.9); /* soft red with a touch of opacity */
+    color: #fff;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(6px); /* subtle blur effect under the container */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
