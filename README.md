@@ -29,7 +29,7 @@ A responsive, Auth0-secured login app for Cruise0, built with Vite + React.
 2. Install dependencies
     npm install
 
-3. Create a .env file
+3. Create a .env file (use .env.example as an starter)
     VITE_AUTH0_DOMAIN=your-tenant.auth0.com
     VITE_AUTH0_CLIENT_ID=your-client-id
     VITE_AUTH0_CALLBACK_URL=http://localhost:5173
