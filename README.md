@@ -1,12 +1,40 @@
-# React + Vite
+# 🚢 Cruise0 Login App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, Auth0-secured login app for Cruise0, built with Vite + React.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Universal Login via Auth0
+- Custom error handling for unverified emails
+- Responsive design with custom branding
+- Smooth logout and retry flow
+- Easily deployable to Vercel or Netlify
 
-## Expanding the ESLint configuration
+## 🧠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Auth0](https://auth0.com/)
+- CSS
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/cruise0-login.git
+   cd cruise0-login
+
+2. Install dependencies
+    npm install
+
+3. Create a .env file
+    VITE_AUTH0_DOMAIN=your-tenant.auth0.com
+    VITE_AUTH0_CLIENT_ID=your-client-id
+    VITE_AUTH0_CALLBACK_URL=http://localhost:5173
+
+4. Run the app locally
+    npm run dev
+
+Your app will be available at http://localhost:5173
