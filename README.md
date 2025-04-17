@@ -32,9 +32,11 @@ A responsive, Auth0-secured login app for Cruise0, built with Vite + React.
 3. Create a .env file (use .env.example as an starter)
     VITE_AUTH0_DOMAIN=your-tenant.auth0.com
     VITE_AUTH0_CLIENT_ID=your-client-id
-    VITE_AUTH0_CALLBACK_URL=http://localhost:5173
 
 4. Run the app locally
     npm run dev
 
-Your app will be available at http://localhost:5173
+Your app will be available at http://localhost:5173 (usually). 
+
+## Important Notes
+Please be sure to add your localhost:port URL or any other URL you may be using (in case of deploying this through a third party service such as vercel, heroku, etc.) to your Allowed Callback/Logout and Web Origins URLs in your Auth0 Application Dashboard. 
